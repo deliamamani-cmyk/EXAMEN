@@ -2,7 +2,7 @@
 
 # Clase Producto
 class Producto:
-    def __init__(self, nombre, precio, cantidad):  # ← CORREGIDO
+    def __init__(self, nombre, precio, cantidad):  
         self.nombre = nombre
         self.precio = precio
         self.cantidad = cantidad
@@ -35,7 +35,7 @@ def agregar_producto():
 
 
 # Función para mostrar productos
-def mostrar_productos():  # ← CORREGIDO
+def mostrar_productos(): 
     if len(productos) == 0:
         print("No hay productos registrados.\n")
     else:
